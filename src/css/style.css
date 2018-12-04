@@ -6,6 +6,8 @@
 html, body {
     margin: 0;
     height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.5em;
 }
 
 .wrapper {
@@ -21,3 +23,81 @@ html, body {
     left: 0;
     right: 0;
 }
+
+.popup {
+    position: absolute;
+    display: none;
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.address {
+    background: #ff8663 url('./img/point.png') no-repeat left 16px center;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 12px 16px 12px 32px;
+}
+
+.closeBtn {
+    display: block;
+    position: absolute;
+    right: 16px;
+    top: 17px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 16px;
+}
+
+.comments {
+    height: 140px;
+    overflow-y: scroll;
+}
+
+.comments li {
+    display: block
+}
+
+.title {
+    font-weight: 500;
+    color: #ff8663;
+    font-size: 16px;
+}
+
+.commentForm {
+    text-align: right;
+}
+
+.commentForm input, .commentForm textarea {
+    display: block;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 6px 16px;
+    border-radius: 17px; 
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+    margin-top: 16px;
+}
+
+.commentForm textarea {
+    resize: none;
+    height: 114px;
+}
+
+.buttonAdd {
+    color: #ffffff;
+    background: #ff8663;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
