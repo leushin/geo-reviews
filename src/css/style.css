@@ -90,7 +90,7 @@ html, body {
     height: 114px;
 }
 
-.buttonAdd {
+.addBtn {
     color: #ffffff;
     background: #ff8663;
     border: none;
@@ -99,5 +99,6 @@ html, body {
     padding: 10px 16px;
     border-radius: 8px;
     margin-top: 16px;
+    cursor: pointer;
 }
 
