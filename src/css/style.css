@@ -33,11 +33,16 @@ html, body {
     overflow: hidden;
 }
 
-.address {
+.adressContainer {
     background: #ff8663 url('./img/point.png') no-repeat left 16px center;
     color: #ffffff;
     font-size: 12px;
-    padding: 12px 16px 12px 32px;
+    padding: 12px 32px;
+}
+
+.address {
+    height: 24px;
+    overflow: hidden;
 }
 
 .closeBtn {
@@ -58,20 +63,32 @@ html, body {
 }
 
 .comments li {
-    display: block
+    display: block;
+    color: #4f4f4f;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.comments li .name {
+    font-weight: 500;
+}
+
+.comments li .place {
+    opacity: 0.75;
 }
 
 .title {
     font-weight: 500;
     color: #ff8663;
     font-size: 16px;
+    margin-top: 12px;
 }
 
-.commentForm {
+.form {
     text-align: right;
 }
 
-.commentForm input, .commentForm textarea {
+.form input, .form textarea {
     display: block;
     font-family: 'Fira Sans', sans-serif;
     font-size: 12px;
@@ -85,7 +102,7 @@ html, body {
     margin-top: 16px;
 }
 
-.commentForm textarea {
+.form textarea {
     resize: none;
     height: 114px;
 }
@@ -102,3 +119,16 @@ html, body {
     cursor: pointer;
 }
 
+.balloon-link {
+    display: block;
+    margin-top: 12px;
+}
+
+.balloon-body {
+    margin-top: 12px;
+}
+
+.balloon-footer {
+    margin-top: 12px;
+    text-align: right;
+}

@@ -15,14 +15,16 @@
 
     <div class="popup">
         <img src="./img/cross.png" alt="cross" class="closeBtn">
-        <div class="address">asdasdasdas</div>
+        <div class="adressContainer">
+            <div class="address"></div>
+        </div>
         <div class="content">
             <ul class="comments"></ul>
             <div class="title">ВАШ ОТЗЫВ</div>
-            <form class="commentForm">
-                <input name="name" value="test" type="text" placeholder="Ваше имя">
-                <input name="place" type="text" placeholder="Укажите место">
-                <textarea class="textarea" name="comment" placeholder="Поделитесь впечатлениями"></textarea>
+            <form class="form">
+                <input name="name" type="text" placeholder="Ваше имя" required>
+                <input name="place" type="text" placeholder="Укажите место" required>
+                <textarea class="textarea" name="comment" placeholder="Поделитесь впечатлениями" required></textarea>
                 <button type="submit" class="addBtn">Добавить</button>
             </form>
         </div>
